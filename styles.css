@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:ital,wght@0,400;1,100&display=swap');
+*{
+  background: #E5E5E5;
+  font-family: 'Inter';
+}
+
+#logo{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+textarea{
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  width: 577px;
+  border: none;
+  outline: none;
+  height: 400px;
+  resize: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  overflow: hidden;
+}
+button{
+  box-sizing: border-box;
+  width: 22em;
+  height: 4em;
+  border: none;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+.adve{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top:80%;
+  left: 21%;
+}
+
+.adve>p{
+  color: #495057;
+  background-color: #E5E5E5;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#encriptar{
+  background-color: #0A3871;
+  color: white;
+}
+.butsec{
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  margin-left: 20px;
+  background-color: #D8DFE8;
+}
+
+
+.botones{
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  padding: 0 100px;
+}
+
+.encriptador{
+  position: absolute;
+  width: 400px;
+  height: 700px;
+  right:40px;
+  top: 40px;
+  bottom: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.encriptador_text{
+  position: absolute;
+  background: #FFF;
+  top: 50%;
+  margin: 0 100px;
+  align-items: center;
+}
+.encriptador_text>h1,p{
+  background-color: #FFF;
+  text-align: center;
+  gap: 16px;
+}
+.encriptador_text>h1{
+  font-weight: 700;
+  font-size: 24px; 
+}
+.encriptador_text>p{
+  font-weight: 400;
+  font-size: 16px;
+
+}
+#copiar{
+  position: absolute;
+  margin: 50px;
+  top: 80%;
+
+}
+
+.imagen{
+  position: absolute;
+  margin: 15px;
+  width: 336px;
+  height: 304px;
+  background: #FFFFFF;
+}
+#encrip{
+  word-wrap: normal;
+  font-size: 24px;
+  font-weight: 40;
+  color: #495057;
+  text-align: left;
+  padding: 10px;
+}
+
+.ocultar {
+  display: none; 
+}
+
